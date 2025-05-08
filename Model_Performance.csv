@@ -1,0 +1,26 @@
+,,,,,,,HOW,TO,INTERPRET,,
+Converge: 10^-7,MA(400:1 Granule:Mossy) lr(.01),FF(2x) lr(.01),MA(600:1 Granule) lr(.01),Marr(800:1 Granule ) lr(.01),,,,,,,
+Linear,160(.000101),11242(.0002),105(5.19e-5),div,,,CONVERGE,MA(EXPANSION:INPUT RATIO) LEARNING RATE,FF(EXPANSION:INPUT RATIO) LEARNING RATE,MA(EXPANSION:INPUT RATIO) LEARNING RATE,MA(EXPANSION:INPUT RATIO) LEARNING RATE
+sqrt,156(.000067),9524(.0002),101(2.70e-5),div,,,CURVE 1,EPOCHS(ERROR),EPOCHS(ERROR),EPOCHS(ERROR),EPOCHS(ERROR)
+sin(x/10+1),119256(.06),15049(.2484),112196(.06),div,,,CURVE 2,EPOCHS(ERROR),EPOCHS(ERROR),EPOCHS(ERROR),EPOCHS(ERROR)
+SL,128(.1676),6955(.1676),119(.1677),div,,,CURVE 3,EPOCHS(ERROR),EPOCHS(ERROR),EPOCHS(ERROR),EPOCHS(ERROR)
+,,,,,,,CURVE 4,EPOCHS(ERROR),EPOCHS(ERROR),EPOCHS(ERROR),EPOCHS(ERROR)
+,,,,,,,,,,,
+Converge: 10^-9,MA(400:1 Granule:Mossy) lr(.01),FF(2x) lr(.01),MA(600:1 Granule) lr(.01),Marr(800:1 Granule ) lr(.01),,,,,,,
+Linear,15709(3.96e-5),19461(5.772e-5),12128(2.86e-5),div,,,,,,,
+sqrt,273(5.42e-5),19870(1.82e-5),404(3.827e-5),div,,,,,,,
+sin(x/10+1),513285(.064),16927(.25087),12890039(.0455),div,,,,,,,
+SL,98036(.1672),4440215(.0945),108618(.1671),div,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Converge: 10^-9,MA(400:1 Granule:Mossy) lr(.015),FF(2x) lr(.015),MA(600:1 Granule) lr(.015),Marr(800:1 Granule ) lr(.015),,,,,,,
+Linear,18642(4.8886e-5),22795(5.7419e-5),3316(2.018e-5),div,,,,,,,
+sqrt,24613(4.433e-5),15657(2.07287e-5),13321(2.6217e-5),div,,,,,,,
+sin(x/10+1),605276(.0662),1902699(.0058),14868878(.040945),div,,,,,,,
+SL,111644(.1672),4137507(.094356),89916(.16718),div,,,,,,,
+,,,,,,,,,,,
+Converge: 10^-7,MA(400:1 Granule:Mossy) lr(.015),FF(2x) lr(.015),MA(600:1 Granule) lr(.015),Marr(800:1 Granule ) lr(.015),,,,,,,
+Linear,111(5.460e-5),6804(.00014),div,div,,,,,,,
+sqrt,103(3.36e-5),14264(.000107),div,div,,,,,,,
+sin(x/10+1),137650(.06778),9610(.2479),div,div,,,,,,,
+SL,100(.168),11915(.1676),div,div,,,,,,,
